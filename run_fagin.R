@@ -2,7 +2,8 @@ library(fagin)
 library(rmonad)                                                                                                 
 library(knitr)                                                                                                  
 library(magrittr)                                                                                               
-library(readr)                                                                                                  
+library(readr)    
+library(readr2) 
 
 get_brassicaceae_config <- function(){                                                                          
   con <- fagin::config()                                                                                        
